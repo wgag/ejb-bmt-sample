@@ -40,6 +40,7 @@
                             <contextRoot>/sample</contextRoot>
                         </webModule>
                     </modules>
+                    <outputFileNameMapping>@{artifactId}@@{dashClassifier?}@.@{extension}@</outputFileNameMapping>
                 </configuration>
             </plugin>
         </plugins>
